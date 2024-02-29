@@ -1,7 +1,7 @@
 # Risk Game Implementation
 
-This is a Java-based implementation of the classic board game Risk, developed as a project for a Software Quality Assurance class. The project emphasizes rigorous software development practices and quality assurance techniques.
-As of now, the code can only be shown on my school account: 
+This is a Java-based implementation of the classic board game Risk, developed as a project for a Software Quality Assurance class. The project emphasizes rigorous software development practices and quality assurance techniques.  
+As of now, the code can only be shown on my school account: [rhit-gizaw1](https://github.com/rhit-gizaw1)
 
 ## Team Members
 - Member 1 Abe Gizaw
