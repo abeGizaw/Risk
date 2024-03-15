@@ -1,0 +1,3 @@
+Alaska,North West Territory,Greenland,Western United States,Eastern United States,Venezuela,Brazil,North Africa,East Africa,Madagascar,South Africa,Iceland,Great Britain,Northern Europe,Ukraine,Siberia,Irkutsk,Kamchatka,China,Siam,Eastern Australia
+Alberta,Ontario,Quebec,Congo,Japan,Mongolia,Yakutsk
+Central America,Peru,Argentina,Egypt,Western Europe,Southern Europe,Middle East,India,Afghanistan,Ural,Scandinavia,Indonesia,New Guinea,Western Australia

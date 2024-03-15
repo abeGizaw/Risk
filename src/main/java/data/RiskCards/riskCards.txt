@@ -1,0 +1,44 @@
+src/main/java/data/RiskCards/RiskCard-Afghanistan-Cavalry.png,Afghanistan,Cavalry
+src/main/java/data/RiskCards/RiskCard-Alaska-Infantry.png,Alaska,Infantry
+src/main/java/data/RiskCards/RiskCard-Alberta-Cavalry.png,Alberta,Cavalry
+src/main/java/data/RiskCards/RiskCard-Argentina-Infantry.png,Argentina,Infantry
+src/main/java/data/RiskCards/RiskCard-Brazil-Artillery.png,Brazil,Artillery
+src/main/java/data/RiskCards/RiskCard-Congo-Infantry.png,Congo,Infantry
+src/main/java/data/RiskCards/RiskCard-Central America-Artillery.png,Central America,Artillery
+src/main/java/data/RiskCards/RiskCard-China-Infantry.png,China,Infantry
+src/main/java/data/RiskCards/RiskCard-East Africa-Infantry.png,East Africa,Infantry
+src/main/java/data/RiskCards/RiskCard-Eastern Australia-Artillery.png,Eastern Australia,Artillery
+src/main/java/data/RiskCards/RiskCard-Quebec-Cavalry.png,Quebec,Cavalry
+src/main/java/data/RiskCards/RiskCard-Eastern United States-Artillery.png,Eastern United States,Artillery
+src/main/java/data/RiskCards/RiskCard-Egypt-Infantry.png,Egypt,Infantry
+src/main/java/data/RiskCards/RiskCard-Great Britain-Artillery.png,Great Britain,Artillery
+src/main/java/data/RiskCards/RiskCard-Greenland-Cavalry.png,Greenland,Cavalry
+src/main/java/data/RiskCards/RiskCard-Iceland-Infantry.png,Iceland,Infantry
+src/main/java/data/RiskCards/RiskCard-India-Cavalry.png,India,Cavalry
+src/main/java/data/RiskCards/RiskCard-Indonesia-Artillery.png,Indonesia,Artillery
+src/main/java/data/RiskCards/RiskCard-Irkutsk-Cavalry.png,Irkutsk,Cavalry
+src/main/java/data/RiskCards/RiskCard-Japan-Artillery.png,Japan,Artillery
+src/main/java/data/RiskCards/RiskCard-Kamchatka-Infantry.png,Kamchatka,Infantry
+src/main/java/data/RiskCards/RiskCard-Madagascar-Cavalry.png,Madagascar,Cavalry
+src/main/java/data/RiskCards/RiskCard-Middle East-Infantry.png,Middle East,Infantry
+src/main/java/data/RiskCards/RiskCard-Mongolia-Infantry.png,Mongolia,Infantry
+src/main/java/data/RiskCards/RiskCard-New Guinea-Infantry.png,New Guinea,Infantry
+src/main/java/data/RiskCards/RiskCard-North Africa-Cavalry.png,North Africa,Cavalry
+src/main/java/data/RiskCards/RiskCard-Northern Europe-Artillery.png,Northern Europe,Artillery
+src/main/java/data/RiskCards/RiskCard-Northwest Territory-Artillery.png,North West Territory,Artillery
+src/main/java/data/RiskCards/RiskCard-Ontario-Cavalry.png,Ontario,Cavalry
+src/main/java/data/RiskCards/RiskCard-Peru-Infantry.png,Peru,Infantry
+src/main/java/data/RiskCards/RiskCard-Scandinavia-Cavalry.png,Scandinavia,Cavalry
+src/main/java/data/RiskCards/RiskCard-Siberia-Cavalry.png,Siberia,Cavalry
+src/main/java/data/RiskCards/RiskCard-South Africa-Artillery.png,South Africa,Artillery
+src/main/java/data/RiskCards/RiskCard-Siam-Infantry.png,Siam,Infantry
+src/main/java/data/RiskCards/RiskCard-Southern Europe-Artillery.png,Southern Europe,Artillery
+src/main/java/data/RiskCards/RiskCard-Ukraine-Cavalry.png,Ukraine,Cavalry
+src/main/java/data/RiskCards/RiskCard-Ural-Cavalry.png,Ural,Cavalry
+src/main/java/data/RiskCards/RiskCard-Venezuela-Infantry.png,Venezuela,Infantry
+src/main/java/data/RiskCards/RiskCard-Western Australia-Artillery.png,Western Australia,Artillery
+src/main/java/data/RiskCards/RiskCard-Western Europe-Artillery.png,Western Europe,Artillery
+src/main/java/data/RiskCards/RiskCard-Western United States-Artillery.png,Western United States,Artillery
+src/main/java/data/RiskCards/RiskCard-Wildcard-Wildcard.png,Wildcard,Wildcard
+src/main/java/data/RiskCards/RiskCard-Wildcard-Wildcard2.png,Wildcard,Wildcard
+src/main/java/data/RiskCards/RiskCard-Yakutsk-Cavalry.png,Yakutsk,Cavalry

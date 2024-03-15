@@ -1,0 +1,42 @@
+Alaska,.04,.085,.04,.05
+North West Territory,.12,.085,.04,.05
+Alberta,.125,.16,.04,.05
+Ontario,.18,.185,.04,.05
+Quebec,.26,.185,.04,.05
+Western United States,.13,.32,.04,.05
+Eastern United States,.195,.3,.04,.05
+Central America,.165,.43,.04,.05
+Greenland,.32,.035,.04,.05
+Venezuela,.205,.48,.04,.05
+Peru,.2,.615,.04,.05
+Brazil,.28,.565,.04,.05
+Argentina,.23,.7,.04,.05
+Indonesia,.81,.63,.04,.05
+New Guinea,.89,.595,.04,.05
+Western Australia,.845,.775,.04,.05
+Eastern Australia,.89,.73,.04,.05
+Iceland,.4,.12,.04,.05
+Great Britain,.35,.235,.04,.05
+Western Europe,.375,.365,.04,.05
+Southern Europe,.48,.34,.04,.05
+Ukraine,.57,.17,.04,.05
+Northern Europe,.48,.25,.04,.05
+Scandinavia,.46,.1,.04,.05
+Egypt,.515,.5,.04,.05
+North Africa,.44,.55,.04,.05
+East Africa,.555,.595,.04,.05
+Congo,.515,.66,.04,.05
+South Africa,.515,.765,.04,.05
+Madagascar,.64,.83,.04,.05
+Middle East,.6,.415,.04,.05
+India,.705,.435,.04,.05
+Siam,.79,.48,.04,.05
+China,.765,.36,.04,.05
+Afghanistan,.65,.285,.04,.05
+Mongolia,.80,.27,.04,.05
+Ural,.67,.17,.04,.05
+Siberia,.73,.09,.04,.05
+Irkutsk,.79,.17,.04,.05
+Yakutsk,.81,.06,.04,.05
+Kamchatka,.89,.06,.04,.05
+Japan,.915,.28,.04,.05

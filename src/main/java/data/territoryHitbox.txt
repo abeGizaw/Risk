@@ -1,0 +1,42 @@
+Alaska,.025,.12,.06,.04
+North West Territory,.09,.115,.14,.04
+Alberta,.105,.19,.065,.04
+Ontario,.18,.215,.055,.04
+Quebec,.245,.215,.06,.04
+Western United States,.105,.29,.085,.04
+Eastern United States,.175,.34,.075,.04
+Central America,.13,.39,.055,.115
+Greenland,.3,.07,.075,.03
+Venezuela,.19,.515,.07,.03
+Peru,.23,.65,.03,.03
+Brazil,.27,.6,.05,.03
+Argentina,.22,.745,.065,.03
+Indonesia,.78,.675,.08,.035
+New Guinea,.895,.625,.05,.045
+Western Australia,.83,.81,.08,.045
+Eastern Australia,.9,.77,.065,.04
+Iceland,.4,.165,.045,.035
+Great Britain,.345,.275,.1,.03
+Western Europe,.395,.36,.055,.11
+Southern Europe,.465,.37,.07,.04
+Ukraine,.555,.21,.07,.04
+Northern Europe,.46,.295,.065,.04
+Scandinavia,.465,.11,.07,.11
+Egypt,.51,.535,.045,.03
+North Africa,.41,.585,.1,.03
+East Africa,.555,.635,.065,.04
+Congo,.5,.695,.055,.03
+South Africa,.51,.8,.055,.05
+Madagascar,.61,.785,.05,.1
+Middle East,.58,.45,.08,.03
+India,.705,.47,.04,.03
+Siam,.79,.515,.035,.03
+China,.765,.395,.045,.03
+Afghanistan,.635,.325,.08,.03
+Mongolia,.785,.305,.065,.03
+Ural,.67,.205,.035,.03
+Siberia,.72,.125,.05,.03
+Irkutsk,.79,.21,.045,.03
+Yakutsk,.8,.09,.045,.03
+Kamchatka,.87,.09,.07,.03
+Japan,.9,.32,.045,.03
