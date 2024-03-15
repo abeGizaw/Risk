@@ -1,0 +1,85 @@
+plugins {
+    id 'java'
+    id "com.github.spotbugs" version "5.0.13"
+    id 'checkstyle'
+    id 'info.solidsoft.pitest' version '1.7.0+'
+    id 'jacoco'
+}
+
+group 'edu.rose-hulman.csse'
+version '1.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // https://mvnrepository.com/artifact/org.easymock/easymock
+    testImplementation group: 'org.easymock', name: 'easymock', version: '4.2'
+
+    pitest 'org.easymock:easymock:4.2'
+
+    // https://mvnrepository.com/artifact/com.github.spotbugs/spotbugs-annotations
+    implementation 'com.github.spotbugs:spotbugs-annotations:4.7.3'
+}
+
+pitest {
+    targetClasses = ['mainApp.domain.*']
+    threads = 4
+    outputFormats = ['XML', 'HTML']
+    timestampedReports = false
+    junit5PluginVersion = '0.15'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jacoco {
+    toolVersion = "0.8.8"
+}
+
+jacocoTestReport {
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+
+    reports {
+        xml.enabled true
+        csv.enabled false
+        html.enabled true
+    }
+}
+
+test.finalizedBy(jacocoTestReport)
+
+task codeCoverageInfo (dependsOn: jacocoTestReport) {
+    ext.srcFile = file("${reportsDir}/jacoco/test/jacocoTestReport.xml")
+    doLast {
+        println "Transforming source file."
+
+        def parser = new XmlParser()
+        parser.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false);
+        parser.setFeature("http://apache.org/xml/features/nonvalidating/load-external-dtd", false);
+        parser.setFeature("http://xml.org/sax/features/namespaces", false)
+
+        def reportNode = parser.parse(srcFile)
+        reportNode.children().each {
+            if(it.name() == 'counter') {
+                String type = it.@type
+                float missed = it.@missed as float
+                float covered = it.@covered as float
+                float percentage = covered / (missed + covered) * 100
+                println "Code Coverage[$type]: $percentage%"
+            }
+        }
+    }
+}
+jacocoTestReport.finalizedBy(codeCoverageInfo)
+
