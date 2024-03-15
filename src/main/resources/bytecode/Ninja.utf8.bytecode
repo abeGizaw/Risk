@@ -1,0 +1,93 @@
+/ class version 52.0 (52)
+// access flags 0x21
+public class example.encoding/Ninja {
+
+  // compiled from: Ninja.java
+
+  // access flags 0x1
+  public <init>()V
+   L0
+    LINENUMBER 5 L0
+    ALOAD 0
+    INVOKESPECIAL java/lang/Object.<init> ()V
+    RETURN
+   L1
+    LOCALVARIABLE this Llanguage/Ninja; L0 L1 0
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x9
+  public static main([Ljava/lang/String;)V
+   L0
+    LINENUMBER 10 L0
+    LDC "\u5fcd\u8005"
+    ASTORE 1
+   L1
+    LINENUMBER 11 L1
+    LDC "\u043d\u0438\u043d\u0434\u0437\u044f"
+    ASTORE 2
+   L2
+    LINENUMBER 12 L2
+    LDC "\u5fcd\u8005"
+    ASTORE 3
+   L3
+    LINENUMBER 13 L3
+    LDC "ninja"
+    ASTORE 4
+   L4
+    LINENUMBER 14 L4
+    ALOAD 1
+    INVOKESTATIC example.encoding/Ninja.outputString (Ljava/lang/String;)V
+   L5
+    LINENUMBER 15 L5
+    ALOAD 2
+    INVOKESTATIC example.encoding/Ninja.outputString (Ljava/lang/String;)V
+   L6
+    LINENUMBER 16 L6
+    ALOAD 3
+    INVOKESTATIC example.encoding/Ninja.outputString (Ljava/lang/String;)V
+   L7
+    LINENUMBER 17 L7
+    ALOAD 4
+    INVOKESTATIC example.encoding/Ninja.outputString (Ljava/lang/String;)V
+   L8
+    LINENUMBER 19 L8
+    RETURN
+   L9
+    LOCALVARIABLE args [Ljava/lang/String; L0 L9 0
+    LOCALVARIABLE s1 Ljava/lang/String; L1 L9 1
+    LOCALVARIABLE s2 Ljava/lang/String; L2 L9 2
+    LOCALVARIABLE s3 Ljava/lang/String; L3 L9 3
+    LOCALVARIABLE s4 Ljava/lang/String; L4 L9 4
+    MAXSTACK = 1
+    MAXLOCALS = 5
+
+  // access flags 0x9
+  public static outputString(Ljava/lang/String;)V
+   L0
+    LINENUMBER 23 L0
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ALOAD 0
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/String;)V
+   L1
+    LINENUMBER 24 L1
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ALOAD 0
+    INVOKEVIRTUAL java/lang/String.toCharArray ()[C
+    INVOKESTATIC java/util/Arrays.toString ([C)Ljava/lang/String;
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/String;)V
+   L2
+    LINENUMBER 25 L2
+    GETSTATIC java/lang/System.out : Ljava/io/PrintStream;
+    ALOAD 0
+    INVOKEVIRTUAL java/lang/String.getBytes ()[B
+    INVOKESTATIC java/util/Arrays.toString ([B)Ljava/lang/String;
+    INVOKEVIRTUAL java/io/PrintStream.println (Ljava/lang/String;)V
+   L3
+    LINENUMBER 26 L3
+    RETURN
+   L4
+    LOCALVARIABLE s Ljava/lang/String; L0 L4 0
+    MAXSTACK = 2
+    MAXLOCALS = 1
+}
